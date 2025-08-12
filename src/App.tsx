@@ -186,7 +186,7 @@ function App() {
               <input
                 ref={fileInputRef}
                 type="file"
-                accept="audio/*"
+                accept = ".mp3,audio/mp3,audio/mpeg"
                 multiple
                 onChange={handleFileUpload}
                 className="hidden"
